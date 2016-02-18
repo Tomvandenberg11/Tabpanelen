@@ -1,0 +1,50 @@
+body {
+	font-family: sans-serif;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: wheat;
+}
+
+h1 {
+	background-color: dimgray;
+	text-align: center;
+}
+
+.knoppen {
+	overflow: hidden;
+}
+
+.knoppen li {
+	list-style-type: none;
+	float: left;
+	margin: 10px;
+}
+
+.knoppen li.actief {
+	background-color: greenyellow;
+}
+
+.knoppen li.hover {
+	color: black;
+}
+
+.paneel {
+/*	display: none;*/
+}
+
+.paneel.actief {
+	display: block !important;
+}
+
+.paneel img {
+	max-width: 100%;
+}
+
+#inleiding {
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+
+
+
